@@ -1,0 +1,293 @@
+.topnav{
+	background-color:#000080;
+	padding: 15px 5px 5px 2px;
+}
+.phone .num{
+	list-style: none;
+	display: inline-block;
+	text-align: center;
+	color: #fff;
+}
+.Qustion{
+	float: left;
+	color: #fff;
+	list-style: none;
+	padding: 8px;
+	margin-left: 10px;
+}
+.phone{
+	float: right;
+	color: #fff;
+	margin-right:30px;
+}
+.navbar{
+	background:url(BG.jpg);
+	width: 100%;
+}
+.navbar-toggle{
+	background-color: red;
+}
+.collapse{
+	float: right;
+	margin-right: 30px;
+	position: relative;
+}
+.navbar-collapse .navbar-nav>li>a{
+	color: #000;
+	font-weight: 300;
+}
+.logo{
+	float: left;
+	margin-left: 0px;
+	text-align: center;
+	position: relative;
+}
+#myCarousel{
+	margin-top: -20px;
+}
+/*----------------------------------------*/
+.about-area {
+    background: rgba(0, 0, 0, 0) url("slides/banner1.jpg") no-repeat scroll center top;
+    color: #ffffff;
+    margin-top:0px;
+    padding-bottom: 30px;
+    position: relative;
+}
+.about-area:before {
+    height: 110px;
+    left: 0;
+    right: auto;
+    top: -20px;
+    width: 49.2%;
+}
+.about-area:after {
+    border-width: 55px 30px;
+    left: 49.2%;
+    top: -20px;
+    right: auto
+}
+.about-area h3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    padding-top: 22px;
+    z-index: 9;
+    position: relative;
+}
+.about-area p {
+   
+    line-height: 26px;
+	color:#333333;
+    margin-bottom: 24px;
+}
+.about-container {margin-left: 20px;}
+.about-area .button-default {padding: 9px 41px;}
+.about-container > .button-default:hover {background: #ffffff none repeat scroll 0 0; color: #2d3e50;}
+/*----------------------------------------*/
+[type='text']:focus {
+  outline: none;
+  border-color: #53CACE;
+}
+[type=text] {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  border: 0;
+  border-bottom: 1px solid rgba(0,0,0,.2);
+  height: 45px;
+  line-height: 45px;  
+  margin-bottom: 10px;
+  font-size: 1em;
+  color: rgba(0,0,0,.4);
+}
+[type=email] {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  border: 0;
+  border-bottom: 1px solid rgba(0,0,0,.2);
+  height: 35px;
+  line-height: 45px;  
+  margin-bottom: 10px;
+  font-size: 1em;
+  color: rgba(0,0,0,.4);
+}
+#field {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  border: 0;
+  border-bottom: 1px solid rgba(0,0,0,.2);
+  height: 35px;
+  line-height: 45px;  
+  margin-bottom: 10px;
+  font-size: 1em;
+  color: rgba(0,0,0,.4);
+}
+
+[type=submit] {
+  margin-top: 10px;
+  margin-left: 30px;
+  width: 85%;
+  border: 0;
+  text-align: center;
+  background-color:red;
+  border-radius: 5px;
+  height: 35px;
+  color: white;
+  font-weight: 400;
+  font-size: 1em;
+}
+.footer-form{
+	position: relative;
+	margin-left: -40px;
+
+}
+/*----------------------------------------*/
+/*  7. Latest News Area
+/*----------------------------------------*/
+.latest-area {padding: 55px 0 70px;}
+.single-latest-text > h3 {
+    font-family: raleway;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.single-latest-item {
+    overflow: hidden;
+    margin-bottom: 30px;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s
+}
+.single-latest-item:hover {box-shadow: 2px 5px 25px rgba(34, 30, 31, 0.25);}
+.single-latest-text > h3 a {color: #2d3e50;}
+.single-latest-image {float: left;}
+.single-latest-image a {display: inline-block}
+.single-latest-text {
+    background: #f6f6f6 none repeat scroll 0 0;
+    border-bottom: 2px solid #86bc42;
+    overflow: hidden;
+    padding: 19px 0 9px 17px;
+}
+.single-latest-item .single-item-comment-view span {margin-right: 13px;}
+.single-latest-item .single-item-comment-view {
+    display: block;
+    margin-bottom: 2px;
+}
+.single-latest-item .button-default {
+    font-size: 12px;
+    margin-top: 7px;
+    padding: 4px 21px;
+}
+.single-latest-item:hover .button-default {background: #2D3E50 none repeat scroll 0 0;}
+.section-title h3 {
+    color: #2d3e50;
+    font-size: 35px;
+    line-height: 25px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    text-transform: uppercase
+}
+.section-title p {
+    color: #000000;
+    font-family: "Raleway";
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-family: 'montserratsemi_bold';
+}.section-title-wrapper {
+    margin-bottom: 45px;
+    position: relative;
+}.section-title {
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+::selection {background: #b3d4fc; text-shadow: none}
+.single-latest-item .button-default {
+    background: #047ba6;
+}
+
+
+.single-latest-item .button-default {
+    font-size: 12px;
+    margin-top: 7px;
+    padding: 4px 21px;
+}
+.button-default {
+    background: #2d3e50 none repeat scroll 0 0;
+    color: #ffffff;
+    display: inline-block;
+    font-family: "montserratregular";
+    font-size: 14px;
+    margin: 0;
+    padding: 15px 35px;
+    text-transform: uppercase;
+}
+a {
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+    color: #FFF;
+}
+ #scroller {
+        position: relative;
+    }
+    #scroller .innerScrollArea {
+        overflow: hidden;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+    }
+    #scroller ul {
+        padding: 0;
+        margin: 0;
+        position: relative;
+    }
+    #scroller li {
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+        position: absolute;
+    }
+    /*footer start*/
+    .footer-total{
+    	background-color: black;
+    }
+    .address .address-ltem{
+    	color: #fff;
+    	padding: 5px;
+    	list-style: none;	
+    }
+    .address>.address-ltem>a{
+    	color: #fff;
+    	padding: 3px;
+    	list-style: none;
+
+    }
+    .social .social-icons{
+    	list-style: none;
+    	display: inline-block;
+    	padding: 3px;
+    }
+    .Quick .Quick-ltem{
+    	padding: 4px;
+    	list-style: none;
+    	border-bottom: 1px dashed #fff;
+    }
+    #h4{
+    	text-align: center;
+    	color: #fff;
+    	font-size: 15px;
+    }
+    .copyrights .copy{
+    	background-color:#000080;
+    	color: #fff;
+    	text-align: center;
+    	padding: 10px;
+    	margin-bottom: 0px;
+    }
+    /*footer ends*/
